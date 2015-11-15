@@ -1,0 +1,53 @@
+body {
+	background: %COLOR_BACKGROUND%;
+	color: %COLOR_FONT%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+	margin-top: 50px;
+	margin-bottom: 0;
+	text-align: center;
+}
+header h1 {
+	font-size: 50px;
+	font-weight: 100;
+}
+main {
+	margin-top: 100px;
+	text-align: center;
+}
+main ul {
+	list-style: none;
+	margin: 0 0 40px;
+	padding: 0;
+}
+main ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0 20px;
+}
+main a:link, main a:visited {
+	width: 120px;
+	display: inline-block;
+	padding: 0.8em;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: %COLOR_HIGHLIGHT%;
+	border: 3px solid %COLOR_HIGHLIGHT%;
+}
+main a:hover, main a:active {
+	color: %COLOR_BACKGROUND%;
+	background: %COLOR_HIGHLIGHT%;
+}
+footer {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	font: 14px 'Inconsolata-g';
+}
+footer a:link, footer a:visited {
+	color: %COLOR_FONT%;
+}
+footer a:hover, footer a:active {
+	color: %COLOR_HIGHLIGHT%;
+}
